@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10CDC11628EC131100807B46 /* Ext+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CDC11528EC131100807B46 /* Ext+Optional.swift */; };
+		10CDC11E28EC1B7500807B46 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CDC11D28EC1B7500807B46 /* MainViewModel.swift */; };
+		10CDC12028EC205600807B46 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CDC11F28EC205600807B46 /* SettingsViewModel.swift */; };
 		10DAA0F728EB9B3100F0F292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA0F628EB9B3100F0F292 /* AppDelegate.swift */; };
 		10DAA0F928EB9B3100F0F292 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA0F828EB9B3100F0F292 /* SceneDelegate.swift */; };
-		10DAA0FB28EB9B3100F0F292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA0FA28EB9B3100F0F292 /* ViewController.swift */; };
 		10DAA0FE28EB9B3100F0F292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DAA0FC28EB9B3100F0F292 /* Main.storyboard */; };
 		10DAA10028EB9B3200F0F292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DAA0FF28EB9B3200F0F292 /* Assets.xcassets */; };
 		10DAA10328EB9B3200F0F292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DAA10128EB9B3200F0F292 /* LaunchScreen.storyboard */; };
+		10DAA10F28EB9C8800F0F292 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA10E28EB9C8800F0F292 /* MainPageViewController.swift */; };
+		10DAA11228EB9CFD00F0F292 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA11128EB9CFD00F0F292 /* BaseViewController.swift */; };
+		10DAA11428EB9D4300F0F292 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA11328EB9D4300F0F292 /* RootView.swift */; };
+		10DAA11728EB9DA600F0F292 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA11628EB9DA600F0F292 /* MainTableViewCell.swift */; };
+		10DAA11928EBA08200F0F292 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA11828EBA08200F0F292 /* SettingsViewController.swift */; };
+		10DAA11C28EBA18700F0F292 /* Ext+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA11B28EBA18700F0F292 /* Ext+UserDefaults.swift */; };
+		10DAA11F28EBA59900F0F292 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAA11E28EBA59900F0F292 /* SettingsTableViewCell.swift */; };
+		9536A73C487749CB9184DCA5 /* Pods_OsonTaskiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3D74BD3383C2AAE257F369 /* Pods_OsonTaskiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10CDC11528EC131100807B46 /* Ext+Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Optional.swift"; sourceTree = "<group>"; };
+		10CDC11D28EC1B7500807B46 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		10CDC11F28EC205600807B46 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		10DAA0F328EB9B3100F0F292 /* OsonTaskiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsonTaskiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DAA0F628EB9B3100F0F292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10DAA0F828EB9B3100F0F292 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		10DAA0FA28EB9B3100F0F292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10DAA0FD28EB9B3100F0F292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10DAA0FF28EB9B3200F0F292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DAA10228EB9B3200F0F292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10DAA10428EB9B3200F0F292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DAA10E28EB9C8800F0F292 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		10DAA11128EB9CFD00F0F292 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		10DAA11328EB9D4300F0F292 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		10DAA11628EB9DA600F0F292 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		10DAA11828EBA08200F0F292 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		10DAA11B28EBA18700F0F292 /* Ext+UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UserDefaults.swift"; sourceTree = "<group>"; };
+		10DAA11E28EBA59900F0F292 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		AA3D74BD3383C2AAE257F369 /* Pods_OsonTaskiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OsonTaskiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C089154038F06FD18603CF0A /* Pods-OsonTaskiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsonTaskiOS.debug.xcconfig"; path = "Target Support Files/Pods-OsonTaskiOS/Pods-OsonTaskiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D4F011E0CC092A686B4C2CD6 /* Pods-OsonTaskiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsonTaskiOS.release.xcconfig"; path = "Target Support Files/Pods-OsonTaskiOS/Pods-OsonTaskiOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9536A73C487749CB9184DCA5 /* Pods_OsonTaskiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				10DAA0F528EB9B3100F0F292 /* OsonTaskiOS */,
 				10DAA0F428EB9B3100F0F292 /* Products */,
+				2964EDA0B9404D72D21F60FB /* Pods */,
+				323151C66CE91114F122D430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,105 @@
 		10DAA0F528EB9B3100F0F292 /* OsonTaskiOS */ = {
 			isa = PBXGroup;
 			children = (
+				10DAA11A28EBA17000F0F292 /* Extensions */,
+				10DAA11028EB9CE400F0F292 /* Common */,
+				10DAA10B28EB9BA600F0F292 /* Screens */,
+				10DAA10A28EB9B8400F0F292 /* Support */,
 				10DAA0F628EB9B3100F0F292 /* AppDelegate.swift */,
 				10DAA0F828EB9B3100F0F292 /* SceneDelegate.swift */,
-				10DAA0FA28EB9B3100F0F292 /* ViewController.swift */,
-				10DAA0FC28EB9B3100F0F292 /* Main.storyboard */,
-				10DAA0FF28EB9B3200F0F292 /* Assets.xcassets */,
-				10DAA10128EB9B3200F0F292 /* LaunchScreen.storyboard */,
 				10DAA10428EB9B3200F0F292 /* Info.plist */,
 			);
 			path = OsonTaskiOS;
+			sourceTree = "<group>";
+		};
+		10DAA10A28EB9B8400F0F292 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				10DAA0FF28EB9B3200F0F292 /* Assets.xcassets */,
+				10DAA0FC28EB9B3100F0F292 /* Main.storyboard */,
+				10DAA10128EB9B3200F0F292 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		10DAA10B28EB9BA600F0F292 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				10DAA10C28EB9BAD00F0F292 /* MainScreen */,
+				10DAA10D28EB9BB700F0F292 /* SettingsScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		10DAA10C28EB9BAD00F0F292 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				10DAA11528EB9D7400F0F292 /* Components */,
+				10DAA10E28EB9C8800F0F292 /* MainPageViewController.swift */,
+				10CDC11D28EC1B7500807B46 /* MainViewModel.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		10DAA10D28EB9BB700F0F292 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				10DAA11D28EBA58600F0F292 /* Components */,
+				10DAA11828EBA08200F0F292 /* SettingsViewController.swift */,
+				10CDC11F28EC205600807B46 /* SettingsViewModel.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		10DAA11028EB9CE400F0F292 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				10DAA11128EB9CFD00F0F292 /* BaseViewController.swift */,
+				10DAA11328EB9D4300F0F292 /* RootView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		10DAA11528EB9D7400F0F292 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				10DAA11628EB9DA600F0F292 /* MainTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		10DAA11A28EBA17000F0F292 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10DAA11B28EBA18700F0F292 /* Ext+UserDefaults.swift */,
+				10CDC11528EC131100807B46 /* Ext+Optional.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10DAA11D28EBA58600F0F292 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				10DAA11E28EBA59900F0F292 /* SettingsTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2964EDA0B9404D72D21F60FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C089154038F06FD18603CF0A /* Pods-OsonTaskiOS.debug.xcconfig */,
+				D4F011E0CC092A686B4C2CD6 /* Pods-OsonTaskiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		323151C66CE91114F122D430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3D74BD3383C2AAE257F369 /* Pods_OsonTaskiOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10DAA10728EB9B3200F0F292 /* Build configuration list for PBXNativeTarget "OsonTaskiOS" */;
 			buildPhases = (
+				FD022D6573D6283A394DDDB7 /* [CP] Check Pods Manifest.lock */,
 				10DAA0EF28EB9B3100F0F292 /* Sources */,
 				10DAA0F028EB9B3100F0F292 /* Frameworks */,
 				10DAA0F128EB9B3100F0F292 /* Resources */,
+				1B5FEDD1393D7B8FFA8DA322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +220,7 @@
 				};
 			};
 			buildConfigurationList = 10DAA0EE28EB9B3100F0F292 /* Build configuration list for PBXProject "OsonTaskiOS" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,14 +250,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B5FEDD1393D7B8FFA8DA322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OsonTaskiOS/Pods-OsonTaskiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OsonTaskiOS/Pods-OsonTaskiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OsonTaskiOS/Pods-OsonTaskiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD022D6573D6283A394DDDB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OsonTaskiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10DAA0EF28EB9B3100F0F292 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10DAA0FB28EB9B3100F0F292 /* ViewController.swift in Sources */,
 				10DAA0F728EB9B3100F0F292 /* AppDelegate.swift in Sources */,
+				10DAA11228EB9CFD00F0F292 /* BaseViewController.swift in Sources */,
+				10DAA11F28EBA59900F0F292 /* SettingsTableViewCell.swift in Sources */,
+				10CDC11628EC131100807B46 /* Ext+Optional.swift in Sources */,
+				10DAA11928EBA08200F0F292 /* SettingsViewController.swift in Sources */,
+				10DAA10F28EB9C8800F0F292 /* MainPageViewController.swift in Sources */,
+				10DAA11C28EBA18700F0F292 /* Ext+UserDefaults.swift in Sources */,
 				10DAA0F928EB9B3100F0F292 /* SceneDelegate.swift in Sources */,
+				10DAA11728EB9DA600F0F292 /* MainTableViewCell.swift in Sources */,
+				10DAA11428EB9D4300F0F292 /* RootView.swift in Sources */,
+				10CDC11E28EC1B7500807B46 /* MainViewModel.swift in Sources */,
+				10CDC12028EC205600807B46 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +450,7 @@
 		};
 		10DAA10828EB9B3200F0F292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C089154038F06FD18603CF0A /* Pods-OsonTaskiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +461,6 @@
 				INFOPLIST_FILE = OsonTaskiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +478,7 @@
 		};
 		10DAA10928EB9B3200F0F292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F011E0CC092A686B4C2CD6 /* Pods-OsonTaskiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +489,6 @@
 				INFOPLIST_FILE = OsonTaskiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

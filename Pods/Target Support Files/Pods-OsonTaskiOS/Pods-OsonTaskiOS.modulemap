@@ -1,0 +1,6 @@
+framework module Pods_OsonTaskiOS {
+  umbrella header "Pods-OsonTaskiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
